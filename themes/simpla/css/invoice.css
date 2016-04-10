@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.button {
+				font-family: Verdana, Arial, sans-serif;
+                display: inline-block;
+                background: #459300 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border: 1px solid #459300 !important;
+                padding: 4px 7px 4px 7px !important;
+                color: #fff !important;
+                font-size: 11px !important;
+                cursor: pointer;
+                }
+                
+.button:hover {
+                text-decoration: underline;
+                }
+                
+.button:active {
+                padding: 5px 7px 3px 7px !important;
+}
+
+
+body {
+	background-image: url('../images/6.jpg');
+	background-repeat: repeat;
+	background-color: #D5D4D0;
+}
+.header {
+	background-image: url('/themes/simpla/images/1.jpg');
+	background-repeat: no-repeat;
+	height: 101px;
+	width: 743px;
+}
+.textarea {
+	background-color: #FFF;
+	background-image: url(../images/3.jpg);
+	background-repeat: repeat-y;
+}
+.main-pic {
+	background-image: url(../images/2.jpg);
+	background-repeat: no-repeat;
+	height: 239px;
+	width: 743px;
+}
+.box-header {
+	background-image: url(/themes/simpla/images/4a.jpg);
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 669px;
+}
+.website-title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	color: #999;
+}
+.website-title-2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #A11820;
+}
+.website-title-3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	color: #CCC;
+}
+.website-subtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999;
+}
+.headline {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	color: #FFF;
+}
+.subhead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #A71B24;
+}
+.product-title {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #8A0B10;
+}
+.bodytext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	line-height: 18px;
+}
+.visit-site {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+.visit-site a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+.visit-site a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #880B0B;
+}
+.footer-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333;
+	text-align: center;
+	line-height: 16px;
+}
+/*************** Forms ***************/
+
+form label {
+                display: block;
+                padding: 0 0 10px;
+                font-weight: bold;
+                }
+             
+form fieldset legend {
+                font-weight: bold;
+                margin-bottom: 10px;
+                padding-top: 10px;
+                }
+                
+form p small {
+                font-size: 0.75em;
+                color: #777;
+                }
+				
+				
+form input.text-input,
+form select,
+form textarea,
+form .wysiwyg {
+                padding: 6px;
+                font-size: 13px;
+                background: #fff url('../images/bg-form-field.gif') top left repeat-x;
+                border: 1px solid #d5d5d5;
+				color: #333;
+                }
+            
+form .small-input {
+                width: 25% !important;
+                }
+                
+form .medium-input {
+                width: 50% !important;
+                }
+                
+form .large-input {
+                width: 97.5% !important;
+				font-size: 16px !important;
+				padding: 8px !important;
+                }
+                
+form textarea {
+                width: 97.5% !important;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                
+form select {
+                padding: 4px;
+                background: #fff;
+                }
+				
+form input[type="checkbox"],
+form input[type="radio"] {
+				padding: 0;
+                background: none;
+				border: 0;
+                }

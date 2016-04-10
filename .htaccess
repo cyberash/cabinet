@@ -1,0 +1,9 @@
+Options -Indexes
+AddDefaultCharset utf-8
+
+RedirectMatch 404 /\\.svn(/|$)
+#RewriteRule ^(.*/)?\\.svn/ - [F,L]
+
+#Order allow,deny
+#allow from all
+#allow from 192.0.2.1/24
